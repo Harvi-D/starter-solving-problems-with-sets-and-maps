@@ -12,6 +12,7 @@ for each element e of b do:
 return result
 */
 
+//O(n)
 function intersection(a, b) {
     let mapA = new Map();
     let result = new Set();
